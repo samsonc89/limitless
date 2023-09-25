@@ -7,7 +7,7 @@ import uber from "../assets/uber.svg"
 
 export const Hero = () => {
   return (
-    <section className="hero container mx-auto bg-[url('./assets/hero-bg.svg')] bg-cover p-6 text-center text-white">
+    <section className="hero container mx-auto rounded-xl bg-[url('./assets/hero-bg.svg')] bg-cover p-6 text-center text-white">
       <nav>
         <a href="">link 1</a>
       </nav>
