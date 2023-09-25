@@ -11,7 +11,7 @@ export const Hero = () => {
       <nav>
         <a href="">link 1</a>
       </nav>
-      <h1 className="mt-32 text-3xl">
+      <h1 className="mb-2 mt-32 text-3xl">
         Unlimited email design. <br /> One low-priced monthly rate.
       </h1>
       <p className="mb-10 text-xl tracking-wider text-gray-300/80">
