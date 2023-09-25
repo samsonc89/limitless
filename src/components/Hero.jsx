@@ -7,12 +7,19 @@ import uber from "../assets/uber.svg"
 
 export const Hero = () => {
   return (
-    <section className="hero bg-[url('./assets/hero-bg.svg')] bg-cover">
-      <h1>Unlimited email design. One low-priced monthly rate.</h1>
-      <p>
+    <section className="hero container mx-auto bg-[url('./assets/hero-bg.svg')] bg-cover p-6 text-center text-white">
+      <nav>
+        <a href="">link 1</a>
+      </nav>
+      <h1 className="mt-32 text-3xl">
+        Unlimited email design. <br /> One low-priced monthly rate.
+      </h1>
+      <p className="text-xl tracking-wider text-gray-300/80">
         With Limitless, you can get unlimited email design requests, and
         revisions for{" "}
-        <span>70% less than the cost of a full-time designer.</span>
+        <span className="font-semibold leading-7 text-white underline decoration-orange-300 decoration-4 underline-offset-4">
+          70% less than the cost of a full-time designer.
+        </span>
       </p>
       <button>See our plans</button>
       <p>
