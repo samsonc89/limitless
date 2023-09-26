@@ -17,7 +17,7 @@ export const Hero = () => {
       <p className="mb-10 text-xl tracking-wider text-gray-300/80">
         With Limitless, you can get unlimited email design requests, and
         revisions for{" "}
-        <span className="font-semibold leading-7 text-white underline decoration-orange-300 decoration-4 underline-offset-4">
+        <span className="font-semibold leading-7 text-white underline decoration-orange-300 decoration-2 underline-offset-4">
           70% less than the cost of a full-time designer.
         </span>
       </p>
@@ -28,17 +28,19 @@ export const Hero = () => {
         See our plans
       </a>
       <p className="my-5">
-        <span className="pulse-dot text-3xl text-white opacity-100">•</span>
-        <span className=" pulse-dot text-3xl text-white opacity-100">•</span>
-        <span className=" pulse-dot text-3xl text-white opacity-100">•</span>
-        <span className=" pulse-dot text-3xl text-white opacity-100">•</span>
-        <span className=" text-3xl text-white opacity-20">•</span>
-        <span className=" text-3xl text-white opacity-20">•</span>
+        <span className="pulse-dot text-5xl text-white opacity-100">•</span>
+        <span className=" pulse-dot text-5xl text-white opacity-100">•</span>
+        <span className=" pulse-dot text-5xl text-white opacity-100">•</span>
+        <span className=" pulse-dot text-5xl text-white opacity-100">•</span>
+        <span className=" text-5xl text-white opacity-20">•</span>
+        <span className=" text-5xl text-white opacity-20">•</span>
       </p>
-      <p>Only 4 spots left in September!</p>
-      <div>
-        <p>TRUSTED BY THESE INNOVATIVE COMPANIES</p>
-        <div className="logos-wrapper">
+      <p className="text-lg">Only 4 spots left in September!</p>
+      <div className="mt-20">
+        <p className="text-sm font-semibold tracking-widest text-gray-400">
+          TRUSTED BY THESE INNOVATIVE COMPANIES
+        </p>
+        <div className="logos-wrapper mx-auto mb-8 mt-8 grid grid-cols-2 gap-4 ">
           <img src={articulate} alt="" />
           <img src={mailchimp} alt="" />
           <img src={microsoft} alt="" />
