@@ -32,3 +32,9 @@
 .container {
   max-width: 95%;
 }
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
