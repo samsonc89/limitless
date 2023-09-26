@@ -7,14 +7,14 @@ import uber from "../assets/uber.svg"
 
 export const Hero = () => {
   return (
-    <section className="hero container mx-auto rounded-xl bg-[url('./assets/hero-bg.svg')] bg-cover p-6 text-center text-white">
+    <section className="hero container mx-auto rounded-xl bg-[url('./assets/hero-bg.svg')] bg-cover p-6 text-center text-white md:p-12">
       <nav>
         <a href="">link 1</a>
       </nav>
-      <h1 className="mb-2 mt-32 text-3xl">
+      <h1 className="mb-2 mt-32 text-3xl md:text-4xl">
         Unlimited email design. <br /> One low-priced monthly rate.
       </h1>
-      <p className="mb-10 text-xl tracking-wider text-gray-300/80">
+      <p className="mx-auto mb-10 text-xl tracking-wider text-gray-300/80 md:w-7/12">
         With Limitless, you can get unlimited email design requests, and
         revisions for{" "}
         <span className="font-semibold leading-7 text-white underline decoration-orange-300 decoration-2 underline-offset-4">
@@ -23,24 +23,24 @@ export const Hero = () => {
       </p>
       <a
         href="#pricing"
-        className="my-6 rounded-md bg-white px-6 py-3 text-lg font-semibold text-black"
+        className="my-6 rounded-md bg-white px-6 py-3 text-lg font-semibold text-black "
       >
         See our plans
       </a>
-      <p className="my-5">
-        <span className="pulse-dot text-5xl text-white opacity-100">•</span>
-        <span className=" pulse-dot text-5xl text-white opacity-100">•</span>
-        <span className=" pulse-dot text-5xl text-white opacity-100">•</span>
-        <span className=" pulse-dot text-5xl text-white opacity-100">•</span>
-        <span className=" text-5xl text-white opacity-20">•</span>
-        <span className=" text-5xl text-white opacity-20">•</span>
+      <p className="my-5 text-5xl md:my-3 md:text-6xl md:tracking-tighter">
+        <span className="pulse-dot  text-white opacity-100">•</span>
+        <span className=" pulse-dot  text-white opacity-100">•</span>
+        <span className=" pulse-dot  text-white opacity-100">•</span>
+        <span className=" pulse-dot  text-white opacity-100">•</span>
+        <span className="  text-white opacity-20">•</span>
+        <span className="  text-white opacity-20">•</span>
       </p>
-      <p className="text-lg">Only 4 spots left in September!</p>
+      <p className="text-lg md:text-lg">Only 4 spots left in September!</p>
       <div className="mt-20">
         <p className="text-sm font-semibold tracking-widest text-gray-400">
           TRUSTED BY THESE INNOVATIVE COMPANIES
         </p>
-        <div className="logos-wrapper mx-auto mb-8 mt-8 grid grid-cols-2 gap-4 ">
+        <div className="logos-wrapper md:gap-13 mx-auto mb-8 mt-8 grid grid-cols-2 justify-items-center gap-14">
           <img src={articulate} alt="" />
           <img src={mailchimp} alt="" />
           <img src={microsoft} alt="" />
