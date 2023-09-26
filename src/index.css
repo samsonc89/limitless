@@ -33,7 +33,7 @@ body {
 }
 
 section {
-  max-width: 95%;
+  max-width: 95% !important;
   margin: 1rem auto;
 }
 .button {
