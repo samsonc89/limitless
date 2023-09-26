@@ -1,4 +1,4 @@
-import { Hero } from "./components"
+import { Hero, Intro } from "./components"
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
         Hello world!
       </h1>
       <Hero />
+      <Intro />
     </>
   )
 }
