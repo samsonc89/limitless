@@ -47,3 +47,11 @@ section {
   background-color: white;
   color: black;
 }
+
+.text-gradient {
+  background: linear-gradient(90.02deg, #0009ff 0.04%, #ff1078 68.12%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
