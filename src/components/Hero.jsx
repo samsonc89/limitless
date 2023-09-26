@@ -21,10 +21,7 @@ export const Hero = () => {
           70% less than the cost of a full-time designer.
         </span>
       </p>
-      <a
-        href="#pricing"
-        className="my-6 rounded-md bg-white px-6 py-3 text-lg font-semibold text-black "
-      >
+      <a href="#pricing" className="button button-alt my-6 ">
         See our plans
       </a>
       <p className="my-5 text-5xl md:my-3 md:text-6xl md:tracking-tighter">
