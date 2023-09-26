@@ -11,7 +11,7 @@ export const Hero = () => {
       <nav>
         <a href="">link 1</a>
       </nav>
-      <h1 className="mb-2 mt-32 text-3xl md:text-4xl">
+      <h1 className="mb-2 mt-32 text-3xl md:text-4xl xl:text-6xl">
         Unlimited email design. <br /> One low-priced monthly rate.
       </h1>
       <p className="mx-auto mb-10 text-xl tracking-wider text-gray-300/80 md:w-7/12">
@@ -36,16 +36,16 @@ export const Hero = () => {
         <span className="  text-white opacity-20">•</span>
       </p>
       <p className="text-lg md:text-lg">Only 4 spots left in September!</p>
-      <div className="mt-20">
+      <div className="mt-20 xl:mt-40 xl:px-6">
         <p className="text-sm font-semibold tracking-widest text-gray-400">
           TRUSTED BY THESE INNOVATIVE COMPANIES
         </p>
-        <div className="logos-wrapper md:gap-13 mx-auto mb-8 mt-8 grid grid-cols-2 justify-items-center gap-14">
+        <div className="logos-wrapper md:gap-13 mx-auto mb-8 mt-8 grid grid-cols-2 justify-items-center gap-14 xl:mb-0 xl:grid-cols-5">
           <img src={articulate} alt="" />
           <img src={mailchimp} alt="" />
           <img src={microsoft} alt="" />
           <img src={mybite} alt="" />
-          <img src={stubhub} alt="" />
+          <img src={stubhub} alt="" className="xl:hidden" />
           <img src={uber} alt="" />
         </div>
       </div>
