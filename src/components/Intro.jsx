@@ -3,9 +3,9 @@ import image from "../assets/intro-img.webp"
 export const Intro = () => {
   return (
     <section className="intro container">
-      <img src={image} className="rounded-md" />
-      <div className="my-12 px-14 text-center">
-        <h2 className="text-3xl">
+      <img src={image} className="rounded-t-md" />
+      <div className=" rounded-b-md  bg-white px-12 py-12 text-center">
+        <h2 className="text-3xl tracking-wide">
           {
             "Finding a reliable freelancer is really hard. Hiring a full-time designer is too expensive. "
           }
@@ -14,7 +14,7 @@ export const Intro = () => {
             Limitless makes email <span className="inline-block">easy</span>
           </span>
         </h2>
-        <p>
+        <p className="mb-8 mt-4 text-lg font-light tracking-wide">
           Our high-quality email design service is stress-free and affordable.
           We give you access to world-class design, unlimited projects, and
           limitless revisions for one flat monthly fee.
