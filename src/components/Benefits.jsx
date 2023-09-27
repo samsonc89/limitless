@@ -33,7 +33,7 @@ export const Benefits = () => {
       <p className="text-gradient mx-auto mb-5 block w-fit tracking-wider ">
         LIMITLESS SUBSCRIPTION BENEFITS
       </p>
-      <h2 className="mx-auto mb-8 text-3xl tracking-wider lg:w-3/5 xl:w-1/2">
+      <h2 className="mx-auto mb-8 text-3xl tracking-wider lg:w-3/5 xl:w-3/5 xl:text-4xl">
         Unlimited creativity. Unbelievable price. Unbeatable turnaround.
       </h2>
       <a href="#pricing" className="button">
