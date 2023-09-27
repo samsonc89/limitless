@@ -28,7 +28,7 @@ export const Benefits = () => {
   ]
 
   return (
-    <section className="container rounded-xl bg-white py-12 text-center ">
+    <section className="container rounded-xl bg-white py-12 text-center xl:py-24">
       <p className="text-gradient mx-auto mb-5 block w-fit tracking-wider ">
         LIMITLESS SUBSCRIPTION BENEFITS
       </p>
@@ -43,12 +43,14 @@ export const Benefits = () => {
           return (
             <div
               key={i}
-              className="my-14 grid grid-cols-1 place-items-center gap-6"
+              className="mb-10 mt-14 grid grid-cols-1 place-items-center gap-6 xl:mb-0 xl:place-items-start xl:px-10 xl:text-start"
             >
               <img src={item.icon} />
               <div>
-                <h3 className="mb-2 px-5 text-2xl">{item.heading}</h3>
-                <p className="mx-auto w-4/5 text-lg font-light">{item.text}</p>
+                <h3 className="mb-2 px-5 text-2xl xl:p-0">{item.heading}</h3>
+                <p className="mx-auto w-4/5 text-lg font-light xl:w-full">
+                  {item.text}
+                </p>
               </div>
             </div>
           )
