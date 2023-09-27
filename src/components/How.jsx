@@ -1,28 +1,28 @@
-import unlimited from "../assets/unlimited.svg"
-import affordable from "../assets/affordable.svg"
-import world from "../assets/world.svg"
-import fast from "../assets/fast.svg"
+import select from "../assets/select.svg"
+import request from "../assets/request.svg"
+import get from "../assets/get.svg"
+import revisions from "../assets/revisions.svg"
 import { FeatureCard } from "./FeatureCard"
 
 export const How = () => {
   const content = [
     {
-      icon: unlimited,
+      icon: select,
       heading: "1. Select your plan",
       text: "Choose between a monthly Design or Design + Development Subscription. No long-term commitments, cancel anytime.",
     },
     {
-      icon: affordable,
+      icon: request,
       heading: "2. Submit your requests",
       text: "It doesn't matter if you need one email blast design or an entire nurture sequence—send as many requests as you want.",
     },
     {
-      icon: world,
+      icon: get,
       heading: "3. Get your email templates",
       text: "We work on requests one at a time. You'll receive custom, high-quality email designs within 3-4 business days in most cases.",
     },
     {
-      icon: fast,
+      icon: revisions,
       heading: "4. Request revisions",
       text: "Something not quite right? Don't worry—if you want changes we offer unlimited revisions until you're 100% satisfied.",
     },
