@@ -28,8 +28,8 @@ export const Benefits = () => {
   ]
 
   return (
-    <section className="container rounded-md bg-white py-12 text-center">
-      <p className="text-gradient mb-5 block tracking-wider">
+    <section className="container rounded-xl bg-white py-12 text-center ">
+      <p className="text-gradient mx-auto mb-5 block w-fit tracking-wider ">
         LIMITLESS SUBSCRIPTION BENEFITS
       </p>
       <h2 className="mx-auto mb-8 text-3xl tracking-wider lg:w-3/5 xl:w-1/2">
@@ -42,7 +42,7 @@ export const Benefits = () => {
         {content.map((item, i) => {
           return (
             <div
-              key={item[i]}
+              key={i}
               className="my-14 grid grid-cols-1 place-items-center gap-6"
             >
               <img src={item.icon} />
