@@ -4,8 +4,11 @@ export const Intro = () => {
   return (
     <section className="intro container ">
       <div className="grid-cols-2 gap-5 xl:grid">
-        <img src={image} className=" shrink-0 rounded-t-md xl:order-2" />
-        <div className="rounded-b-md bg-white px-12 py-12 text-center xl:text-start">
+        <img
+          src={image}
+          className=" shrink-0 rounded-t-md xl:order-2 xl:rounded-md"
+        />
+        <div className="rounded-b-md bg-white px-12 py-12 text-center xl:rounded-md xl:text-start">
           <h2 className="text-3xl tracking-wide  ">
             {
               "Finding a reliable freelancer is really hard. Hiring a full-time designer is too expensive. "

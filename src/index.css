@@ -4,6 +4,8 @@
 
 body {
   background-color: #f1eefa;
+  margin: 0 auto;
+  width: 95%;
 }
 .pulse-dot {
   animation: pulse 0.8s infinite;
