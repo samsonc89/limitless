@@ -1,12 +1,12 @@
-export const TestimonialCard = () => {
+export const TestimonialCard = (item) => {
   return (
     <div>
       <div>
-        <img src="" alt="" />
+        <img src={item.img} alt="" />
       </div>
-      <p>Text</p>
-      <p>Name</p>
-      <p>Position</p>
+      <p>{item.text}</p>
+      <p>{item.name}</p>
+      <p>{item.position}</p>
     </div>
   )
 }
