@@ -1,4 +1,5 @@
-export const TestimonialCard = (item) => {
+/* eslint-disable react/prop-types */
+export const TestimonialCard = ({ item }) => {
   return (
     <div>
       <div>
