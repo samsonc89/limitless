@@ -20,9 +20,13 @@ export const Testimonial1 = () => {
 
   return (
     <div>
-      <div>Testimonial 1</div>
       <div>
-        <img src="" alt="" />g
+        {content.map((item, i) => {
+          return <TestimonialCard key={i} item={item} />
+        })}
+      </div>
+      <div>
+        <img src="" alt="" />
       </div>
     </div>
   )
