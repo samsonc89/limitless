@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  section {
+    @apply mx-auto my-4 xl:my-12;
+  }
+}
+
 body {
   background-color: #f1eefa;
   margin: 0 auto;
@@ -34,9 +40,6 @@ body {
   animation-delay: 0.6s;
 }
 
-section {
-  margin: 1rem auto;
-}
 .button {
   padding: 0.75rem 1.5rem;
   font-size: 1.125rem;
