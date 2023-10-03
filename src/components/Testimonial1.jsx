@@ -1,4 +1,4 @@
-export const Mybite = () => {
+export const Testimonial1 = () => {
   const content = [
     {
       img: "",
