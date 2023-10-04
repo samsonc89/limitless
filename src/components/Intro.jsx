@@ -8,7 +8,7 @@ export const Intro = () => {
           src={image}
           className=" shrink-0 rounded-t-xl xl:order-2 xl:rounded-xl"
         />
-        <div className="rounded-b-xl bg-white px-12 py-12 text-center xl:rounded-xl xl:text-start">
+        <div className="rounded-b-xl bg-white p-12 text-center xl:rounded-xl xl:text-start">
           <h2 className="text-3xl tracking-wide  ">
             {
               "Finding a reliable freelancer is really hard. Hiring a full-time designer is too expensive. "
