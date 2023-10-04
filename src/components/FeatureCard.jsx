@@ -5,7 +5,7 @@ export const FeatureCard = ({ item }) => {
       <img src={item.icon} className="max-h-16" />
       <div className="">
         <h3 className="mb-2 px-5 text-2xl xl:p-0 xl:text-xl">{item.heading}</h3>
-        <p className="mx-auto w-4/5 text-lg font-light xl:w-full xl:text-base">
+        <p className="mx-auto w-5/6 text-lg font-light xl:w-full xl:text-base">
           {item.text}
         </p>
       </div>

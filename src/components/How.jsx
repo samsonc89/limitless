@@ -33,7 +33,7 @@ export const How = () => {
       <p className="text-gradient mx-auto mb-5 block w-fit tracking-wider ">
         HOW DOES LIMITLESS WORK?
       </p>
-      <h2 className="mx-auto mb-8 text-3xl tracking-wider lg:w-3/5 xl:w-3/5 xl:text-4xl">
+      <h2 className="mx-auto mb-8 px-12 text-3xl tracking-wider lg:w-3/5 xl:w-3/5 xl:text-4xl">
         Take your email campaigns from ordinary to extraordinary in just a few
         steps.
       </h2>
