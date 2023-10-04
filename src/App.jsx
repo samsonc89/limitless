@@ -1,4 +1,11 @@
-import { Benefits, Hero, How, Intro, Testimonial1 } from "./components"
+import {
+  Benefits,
+  Hero,
+  How,
+  Intro,
+  Testimonial1,
+  Testimonial2,
+} from "./components"
 
 function App() {
   return (
@@ -11,6 +18,7 @@ function App() {
       <Benefits />
       <How />
       <Testimonial1 />
+      <Testimonial2 />
     </>
   )
 }
