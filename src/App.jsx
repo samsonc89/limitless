@@ -16,9 +16,9 @@ function App() {
       <Hero />
       <Intro />
       <Benefits />
-      <How />
       <Testimonial1 />
       <Testimonial2 />
+      <How />
     </>
   )
 }
