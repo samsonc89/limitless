@@ -16,7 +16,7 @@ export const Plans = () => {
         <div>
           <div></div>
           <div>
-            <h3>What's Included</h3>
+            <h3 className="text-2xl">What's included:</h3>
             <div className="mt-3 flex gap-2">
               <img src={icon} />
               <p className="font-light tracking-wider">
