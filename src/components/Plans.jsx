@@ -17,29 +17,35 @@ export const Plans = () => {
           <div></div>
           <div>
             <h3>What's Included</h3>
-            <div className="flex gap-2">
+            <div className="mt-3 flex gap-2">
               <img src={icon} />
-              <p>Unlimited email design</p>
+              <p className="font-light tracking-wider">
+                Unlimited email design
+              </p>
             </div>
-            <div className="flex gap-2">
+            <div className="mt-3 flex gap-2">
               <img src={icon} />
-              <p>Unlimited requests</p>
+              <p className="font-light tracking-wider">Unlimited requests</p>
             </div>
-            <div className="flex gap-2">
+            <div className="mt-3 flex gap-2">
               <img src={icon} />
-              <p>Unlimited revisions</p>
+              <p className="font-light tracking-wider">Unlimited revisions</p>
             </div>
-            <div className="flex gap-2">
+            <div className="mt-3 flex gap-2">
               <img src={icon} />
-              <p>Secure project portal</p>
+              <p className="font-light tracking-wider">Secure project portal</p>
             </div>
-            <div className="flex gap-2">
+            <div className="mt-3 flex items-start gap-2">
               <img src={icon} />
-              <p>No meetings—everything is handled async</p>
+              <p className="font-light tracking-wider">
+                No meetings—everything is handled async
+              </p>
             </div>
-            <div className="flex gap-2">
+            <div className="mt-3 flex gap-2">
               <img src={icon} />
-              <p>You own the design and IP rights</p>
+              <p className="font-light tracking-wider">
+                You own the design and IP rights
+              </p>
             </div>
           </div>
         </div>
