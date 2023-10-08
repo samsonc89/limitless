@@ -2,18 +2,18 @@ import icon from "../assets/check-icon.svg"
 
 export const Plans = () => {
   return (
-    <section className="container rounded-xl bg-white p-12 xl:py-24">
+    <section className="container rounded-xl bg-white py-12 xl:py-24">
       <div className="text-center">
         <p className="text-gradient mx-auto mb-5 block w-fit uppercase tracking-wider ">
           Our Plans
         </p>
-        <h2 className="mx-auto mb-8 text-3xl tracking-wider lg:w-3/5 xl:w-3/5 xl:text-4xl">
+        <h2 className="mx-auto mb-8 px-12 text-3xl tracking-wider lg:w-3/5 xl:w-3/5 xl:text-4xl">
           Subscription pricing that fits your budget. No long-term commitments,
           cancel anytime.
         </h2>
       </div>
       <div>
-        <div>
+        <div className="mx-4 rounded-xl border-2 border-orange-300 px-8">
           <div></div>
           <div>
             <h3 className="text-2xl">What's included:</h3>
